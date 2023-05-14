@@ -16,6 +16,11 @@ namespace Examen.ApplicationCore.Domain
         {
             return EmployementDate + " " + Function + " " + Salary;
         }
+        public override void PassengerType()
+        {
+            base.PassengerType();
+            Console.WriteLine("I am passenger I am a staff member");
+        }
 
     }
 }

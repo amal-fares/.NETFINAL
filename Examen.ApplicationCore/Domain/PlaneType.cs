@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Examen.ApplicationCore.Domain
 {
 
-    public enum Plane
+    public enum PlaneType
     {
         Boing,
         Airbus

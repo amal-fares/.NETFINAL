@@ -21,5 +21,29 @@ namespace Examen.ApplicationCore.Domain
         {
             return BirthDate + " " + EmailAddress + " " + TelNumber + " " + PassportNumber;
         }
+        
+        public bool CheckProfile(string fName, string lName)
+        {
+            return fName == FirstName && lName == LastName;
+        }
+        public bool CheckProfile1(string fName, string lName, string email)
+        {
+            return fName == FirstName && lName == LastName && email == EmailAdress;
+        }
+        
+           public bool CheckProfile2(string fName, string lName, string email=null)
+      {
+          if (email==null)
+              return fName == FirstName && lName == LastName;
+
+          return fName == FirstName && lName == LastName && email == EmailAddress;
+      }
+   
+        public virtual void PassengerType()
+        {
+            Console.WriteLine("I am passenger");
+        }
+
+
     }
 }

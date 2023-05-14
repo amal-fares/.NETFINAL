@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 namespace Examen.ApplicationCore.Domain
 {
     public class Plane
-    {
+    { public int amal { get; set; }
         public int PlaneId { get; set; }
-        public Plane PlaneType { get; set; }
+        public PlaneType PlaneType { get; set; }
         public DateTime ManufactureDate { get; set; }
         public int Capacity { get; set; }
         public virtual List<Flight> Flights { get; set; }
