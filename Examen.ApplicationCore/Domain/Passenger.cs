@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Net.Mail;
 using System.Security.Cryptography;
@@ -10,11 +11,18 @@ namespace Examen.ApplicationCore.Domain
 {
     public class Passenger
     {
+        [Key, MaxLength(7)]
         public string PassportNumber { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        [StringLength(maximumLength: 25, MinimumLength = 7, ErrorMessage = "un message d'erreur")]
+        public int PassengerId { get; set; }
+
+        [Display(Name = "Date of Birth"), DataType(DataType.Date)]
         public DateTime BirthDate { get; set; }
+        [RegularExpression("[0-9]{8}")]
         public int TelNumber { get; set; }
+        [DataType(DataType.EmailAddress)]
         public string EmailAddress { get; set; }
         public virtual List<Flight> Flights { get; set; }
         public override string ToString()

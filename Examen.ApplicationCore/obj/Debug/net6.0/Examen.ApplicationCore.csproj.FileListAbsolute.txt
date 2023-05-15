@@ -22,3 +22,11 @@ C:\Users\Administrateur\source\repos\Examen - Squelette\Examen.ApplicationCore\o
 C:\Users\Administrateur\source\repos\Examen - Squelette\Examen.ApplicationCore\obj\Debug\net6.0\refint\Examen.ApplicationCore.dll
 C:\Users\Administrateur\source\repos\Examen - Squelette\Examen.ApplicationCore\obj\Debug\net6.0\Examen.ApplicationCore.pdb
 C:\Users\Administrateur\source\repos\Examen - Squelette\Examen.ApplicationCore\obj\Debug\net6.0\ref\Examen.ApplicationCore.dll
+C:\Users\hp\Desktop\.net\Examen - Squelette\Examen.ApplicationCore\obj\Debug\net6.0\Examen.ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\.net\Examen - Squelette\Examen.ApplicationCore\obj\Debug\net6.0\Examen.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\.net\Examen - Squelette\Examen.ApplicationCore\obj\Debug\net6.0\Examen.ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\.net\Examen - Squelette\Examen.ApplicationCore\obj\Debug\net6.0\Examen.ApplicationCore.AssemblyInfo.cs
+C:\Users\hp\Desktop\.net\Examen - Squelette\Examen.ApplicationCore\obj\Debug\net6.0\Examen.ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\.net\Examen - Squelette\Examen.ApplicationCore\obj\Debug\net6.0\Examen.ApplicationCore.dll
+C:\Users\hp\Desktop\.net\Examen - Squelette\Examen.ApplicationCore\obj\Debug\net6.0\refint\Examen.ApplicationCore.dll
+C:\Users\hp\Desktop\.net\Examen - Squelette\Examen.ApplicationCore\obj\Debug\net6.0\Examen.ApplicationCore.pdb

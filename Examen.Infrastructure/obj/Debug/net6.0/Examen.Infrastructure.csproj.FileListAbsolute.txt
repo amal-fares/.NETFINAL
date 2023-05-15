@@ -32,3 +32,11 @@ C:\Users\Administrateur\source\repos\Examen - Squelette\Examen.Infrastructure\ob
 C:\Users\Administrateur\source\repos\Examen - Squelette\Examen.Infrastructure\obj\Debug\net6.0\Examen.Infrastructure.pdb
 C:\Users\Administrateur\source\repos\Examen - Squelette\Examen.Infrastructure\obj\Debug\net6.0\Examen.Infrastructure.genruntimeconfig.cache
 C:\Users\Administrateur\source\repos\Examen - Squelette\Examen.Infrastructure\obj\Debug\net6.0\ref\Examen.Infrastructure.dll
+C:\Users\hp\Desktop\.net\Examen - Squelette\Examen.Infrastructure\obj\Debug\net6.0\Examen.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\.net\Examen - Squelette\Examen.Infrastructure\obj\Debug\net6.0\Examen.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\.net\Examen - Squelette\Examen.Infrastructure\obj\Debug\net6.0\Examen.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\.net\Examen - Squelette\Examen.Infrastructure\obj\Debug\net6.0\Examen.Infrastructure.AssemblyInfo.cs
+C:\Users\hp\Desktop\.net\Examen - Squelette\Examen.Infrastructure\obj\Debug\net6.0\Examen.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\.net\Examen - Squelette\Examen.Infrastructure\obj\Debug\net6.0\Examen.Infrastructure.dll
+C:\Users\hp\Desktop\.net\Examen - Squelette\Examen.Infrastructure\obj\Debug\net6.0\refint\Examen.Infrastructure.dll
+C:\Users\hp\Desktop\.net\Examen - Squelette\Examen.Infrastructure\obj\Debug\net6.0\Examen.Infrastructure.pdb

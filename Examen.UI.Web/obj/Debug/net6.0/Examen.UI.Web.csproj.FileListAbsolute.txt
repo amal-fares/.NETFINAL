@@ -565,3 +565,14 @@ C:\Users\Administrateur\source\repos\Examen - Squelette\Examen.UI.Web\obj\Debug\
 C:\Users\Administrateur\source\repos\Examen - Squelette\Examen.UI.Web\obj\Debug\net6.0\Examen.UI.Web.genruntimeconfig.cache
 C:\Users\Administrateur\source\repos\Examen - Squelette\Examen.UI.Web\obj\Debug\net6.0\ref\Examen.UI.Web.dll
 C:\Users\Administrateur\source\repos\Examen - Squelette\Examen.UI.Web\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll
+C:\Users\hp\Desktop\.net\Examen - Squelette\Examen.UI.Web\obj\Debug\net6.0\Examen.UI.Web.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\.net\Examen - Squelette\Examen.UI.Web\obj\Debug\net6.0\Examen.UI.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\.net\Examen - Squelette\Examen.UI.Web\obj\Debug\net6.0\Examen.UI.Web.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\.net\Examen - Squelette\Examen.UI.Web\obj\Debug\net6.0\Examen.UI.Web.AssemblyInfo.cs
+C:\Users\hp\Desktop\.net\Examen - Squelette\Examen.UI.Web\obj\Debug\net6.0\Examen.UI.Web.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\.net\Examen - Squelette\Examen.UI.Web\obj\Debug\net6.0\Examen.UI.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hp\Desktop\.net\Examen - Squelette\Examen.UI.Web\obj\Debug\net6.0\Examen.UI.Web.RazorAssemblyInfo.cache
+C:\Users\hp\Desktop\.net\Examen - Squelette\Examen.UI.Web\obj\Debug\net6.0\Examen.UI.Web.RazorAssemblyInfo.cs
+C:\Users\hp\Desktop\.net\Examen - Squelette\Examen.UI.Web\obj\Debug\net6.0\Examen.UI.Web.dll
+C:\Users\hp\Desktop\.net\Examen - Squelette\Examen.UI.Web\obj\Debug\net6.0\refint\Examen.UI.Web.dll
+C:\Users\hp\Desktop\.net\Examen - Squelette\Examen.UI.Web\obj\Debug\net6.0\Examen.UI.Web.pdb

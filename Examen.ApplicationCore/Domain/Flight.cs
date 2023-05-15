@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Numerics;
 using System.Text;
@@ -17,6 +18,8 @@ namespace Examen.ApplicationCore.Domain
         public string Destination { get; set; }
         public virtual List<Passenger> Passengers { get; set; }
         public virtual Plane Plane { get; set; }
+        [ForeignKey(nameof(Plane))]
+        public int? PlaneFk { get; set; }
         public override string ToString()
         {
             return Destination + " " + Departure + " " + FlightDate + " " + EffectiveArrival + " " + EstimatedDuration + " " + plane;

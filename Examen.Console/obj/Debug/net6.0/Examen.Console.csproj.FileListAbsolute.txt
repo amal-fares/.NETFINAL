@@ -1,0 +1,5 @@
+C:\Users\hp\Desktop\.net\Examen - Squelette\Examen.Console\obj\Debug\net6.0\Examen.Console.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\.net\Examen - Squelette\Examen.Console\obj\Debug\net6.0\Examen.Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\.net\Examen - Squelette\Examen.Console\obj\Debug\net6.0\Examen.Console.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\.net\Examen - Squelette\Examen.Console\obj\Debug\net6.0\Examen.Console.AssemblyInfo.cs
+C:\Users\hp\Desktop\.net\Examen - Squelette\Examen.Console\obj\Debug\net6.0\Examen.Console.csproj.CoreCompileInputs.cache
