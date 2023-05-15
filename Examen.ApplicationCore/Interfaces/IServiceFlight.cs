@@ -18,5 +18,8 @@ namespace Examen.ApplicationCore.Interfaces
         List<Flight> OrderedDurationFlights();
         List<Passenger> SeniorTravellers(Flight flight);
         void DestinationGroupedFlights();
-    }
+            public void Add(Flight f);
+            public void Update(Flight f);
+            public IList<Flight> GetAll();
+        }
 }

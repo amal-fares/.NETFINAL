@@ -10,7 +10,11 @@ namespace Examen.ApplicationCore.Services
 {
     public class ServiceFlight : Service<Flight>, IServiceFlight
     {
-
+        private IUnitOfWork unitOfWork;
+        public ServiceFlight(IUnitOfWork unitOfWork)
+        {
+            this.unitOfWork = unitOfWork;
+        }
         public List<Flight> Flights { get; set; } = new List<Flight>();
 
         public List<DateTime> GetFlightDates(string destination)
@@ -66,7 +70,7 @@ namespace Examen.ApplicationCore.Services
                 }
             }
             ///10
-        void ShowFlightDetails(Plane plane)
+            void ShowFlightDetails(Plane plane)
             {
                 var query = Flights
                     .Where(f => f.Plane.PlaneId == plane.PlaneId)
@@ -74,14 +78,14 @@ namespace Examen.ApplicationCore.Services
                 foreach (var item in query) { Console.WriteLine(item); }
             }
             //11
-           int ProgrammedFlightNumber(DateTime startDate)
+            int ProgrammedFlightNumber(DateTime startDate)
             {
                 var query = Flights
                     .Count(f => f.FlightDate >= startDate && (f.FlightDate - startDate).TotalDays < 7);
                 return query;
             }
             //12
-            
+
             double DurationAverage(string destination)
             {
                 var query = Flights
@@ -100,14 +104,43 @@ namespace Examen.ApplicationCore.Services
             //14
             List<Passenger> SeniorTravellers(Flight flight)
             {
-               var query = flight.Passengers.OfType<Traveller>()
-            .Where(p => p is Traveller)
-                   .OrderBy(p => p.BirthDate).Take(3);
-                List<Passenger> pas =new List<Passenger>(query);
-            return pas;
-                    }
-            //15
-            void DestinationGroupedFlights()
+                var query = flight.Passengers.OfType<Traveller>()
+             .Where(p => p is Traveller)
+                    .OrderBy(p => p.BirthDate).Take(3);
+                List<Passenger> pas = new List<Passenger>(query);
+                return pas;
+            }
+            //Partie 6.1
+            //    private IGenericRepository<Flight> genericRepository;
+
+            //public ServiceFlight(IGenericRepository<Flight> genericRepository)
+            //{
+            //    this.genericRepository = genericRepository;
+            //}
+
+            //Partie 6.2
+
+       
+
+     void Add(Flight f)
+        {
+            // genericRepository.Add(f);
+            unitOfWork.Repository<Flight>().Add(f);
+        }
+
+         void Update(Flight f)
+        {
+            // genericRepository.Update(f);
+            unitOfWork.Repository<Flight>().Update(f);
+        }
+
+        IList<Flight> GetAll()
+        {
+            //return genericRepository.GetAll().ToList();
+            return unitOfWork.Repository<Flight>().GetAll().ToList();
+        }
+        //15
+        void DestinationGroupedFlights()
             {
                 var query = Flights
                     .GroupBy(f => f.Destination);
@@ -120,6 +153,7 @@ namespace Examen.ApplicationCore.Services
                     }
                 }
             }
+        }
     }
 }
     
