@@ -20,6 +20,7 @@ namespace Examen.ApplicationCore.Domain
         public virtual Plane Plane { get; set; }
         [ForeignKey(nameof(Plane))]
         public int? PlaneFk { get; set; }
+        public virtual List<Ticket> tickets { get; set; }
         public override string ToString()
         {
             return Destination + " " + Departure + " " + FlightDate + " " + EffectiveArrival + " " + EstimatedDuration + " " + plane;

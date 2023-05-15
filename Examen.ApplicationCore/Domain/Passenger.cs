@@ -24,6 +24,7 @@ namespace Examen.ApplicationCore.Domain
         public int TelNumber { get; set; }
         [DataType(DataType.EmailAddress)]
         public string EmailAddress { get; set; }
+        public virtual List<Ticket> tickets { get; set; }
         public virtual List<Flight> Flights { get; set; }
         public override string ToString()
         {
